@@ -10,7 +10,6 @@ print()
 choice = yt.streams.filter(progressive = True).get_highest_resolution()
 print(choice)
 
-
 print('Downloading...')
 ys.download()
 print('Download Completed')

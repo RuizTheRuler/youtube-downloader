@@ -12,7 +12,8 @@ on:
     - uses: actions/setup-python@v2
       with:
         python-version: '3.x'
-    - name: Install dependencies
+    - name: Run Program
       run: |
         python3 -m pip install --upgrade pip
         pip install -r requirements.txt   
+        python3 main.py

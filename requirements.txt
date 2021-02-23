@@ -1,1 +1,2 @@
 pytube3
+Flask==1.1.2
